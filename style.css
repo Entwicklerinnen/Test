@@ -1,0 +1,130 @@
+@font-face {font-family: IRANSansWeb;font-style: normal;src: url('/fonts/IRANSans.ttf');}
+
+* {
+	direction: rtl;
+	font-family: "IRANSansWeb";
+	margin: 0px;
+	padding: 3px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+li {
+    font-size: 3px;
+    display: inline;
+    font-weight: 700;
+    margin-right: -9px;
+}
+
+li::before {
+    content: "⬤ ";
+    color: rgb(255, 255, 0);
+}
+
+#id1:before { content: "";}
+#id2:before { 
+    content: "+";
+    color: rgb(0, 166, 80);
+    background-color: rgb(200, 200, 200);
+    font-size: 8px;
+    font-weight: 900;
+    padding: 0 2px;
+}
+
+.Record{
+	color: white;
+	font-size: 34px;
+	-webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: black;
+    padding: 0px;
+    margin-right: -4px;
+    letter-spacing: -1px;
+    text-shadow: 2px 2px 2px #2b2b2b;
+}
+
+.newspaper {
+    width: 540px;
+    height: 750px;
+    background-color: #fff;
+    border: 1px solid rgb(222, 222, 222);
+    margin: auto;
+    padding-top: 10px;
+}
+
+.hamshahri{
+    width: 350px;
+    height: 60px;
+}
+
+.hamshahri .logo {
+    width: 100%;  
+}
+
+.row1{
+    width: 340px;
+}
+
+.bours {
+    width: 100%;
+}
+
+.firstdiv{
+    
+}
+
+
+.left-sidebar {
+    width: 140px;
+    height: 400px;
+    justify-content: center;
+}
+
+
+.left-sidebar .image1{
+    width: 140px;
+}
+
+.text-style1 {
+    margin-top: -10px;
+    font-size: 4px;
+    color: black;
+    text-align: center;
+}
+
+.text-style2 {
+    padding: 0;
+    font-size: 5.5px;
+    font-weight: 500;
+    color: rgb(100, 100, 100);
+    text-align: center;
+}
+
+.text-style3 {
+    margin-top: -6px;
+    font-size: 9px;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+}
+
+.text-style4 {
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+}
+
+.left-sidebar-seperator{
+    margin-top: -5px;
+    border-bottom: 0.5px solid rgb(50, 50, 50);
+}
+
+.seperator {
+    margin-top: -10px;
+    border-bottom: 2px solid rgb(202, 202, 202);
+}
